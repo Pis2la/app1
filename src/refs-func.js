@@ -20,10 +20,10 @@ export default function RefsFunc(){
             <span ref={num2}>5</span>&nbsp;
             <span ref={result}>?</span>&nbsp;
         <div>
-            <button onclick={calculate}>+</button>&nbsp;
-            <button onclick={calculate}>-</button>&nbsp;
-            <button onclick={calculate}>*</button>&nbsp;
-            <button onclick={calculate}>/</button>&nbsp;
+            <button onClick={calculate}>+</button>&nbsp;
+            <button onClick={calculate}>-</button>&nbsp;
+            <button onClick={calculate}>*</button>&nbsp;
+            <button onClick={calculate}>/</button>&nbsp;
         </div>
         </div>
     )
